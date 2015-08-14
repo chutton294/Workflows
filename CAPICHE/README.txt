@@ -28,6 +28,13 @@ window_sensitivity_analysis.R: produces sensitivity analysis for different windo
 
    Inputs: behavioural_models.txt
    Outputs: graphs of model sensitivity analysis
+   
+   
+Empirical Data
 
+The empirical data required to run the script will depend on the catchment and the model used. The script provided runs hymod on HJ Andrews WS1, where the data is open access, and can be downloaded at: http://andrewsforest.oregonstate.edu/lter/data.cfm?frameURL=8
 
+Time-series required: daily time-series from 1959-1990 of Potential Evapotranspiration, Rainfall, Discharge and Temperature. 
+
+Other models may require other forcing and spatial data for model set-up.
 
